@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+.initial{
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5px;
+  
+  
+}
+
+@media only screen and (max-width: 1000px)
+{
+  .initial, .interest, .App, input, .value, .draw,  .five, .charge{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    text-align: justify;
+    
+    
+    
+  }
+}
+
+
+
+.interest{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.App{
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  
+  
+}
+
+.container{
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.handle{
+  /* margin-left: -180px; */
+  margin-left: 25px;
+  text-align: start;
+  
+}
+
+
+
+
+button{
+  color: black;
+}
+
+.charge{
+  margin-left: 25px;
+}
+
+.five{
+  margin-left: 25px; 
+}
+
+.draw{
+   margin-left: 25px; 
+}
